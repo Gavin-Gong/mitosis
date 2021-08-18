@@ -96,7 +96,7 @@ With Mitosis, you can convert designs from [Figma](https://github.com/BuilderIO/
 
 ## How does it work
 
-Mitosis uses a static subset of JSX, inspired by [Solid](https://github.com/ryansolid/solid/blob/master/documentation/rendering.md). This means we can parse it to a simple JSON structure, then easily build serializers that target various frameworks and implementations.
+Mitosis uses a static subset of JSX, inspired by [Solid](https://www.solidjs.com/guide#jsx-compilation). This means we can parse it to a simple JSON structure, then easily build serializers that target various frameworks and implementations.
 
 ```tsx
 export function MyComponent() {
@@ -277,7 +277,8 @@ Mitosis supports settings for generating code to match your preferred formatting
 | Vue           | Alpha        |
 | Liquid        | Alpha        |
 | Builder.io    | Alpha        |
-| Solid         | Alpha        |
+| 
+| Alpha        |
 | Figma         | Alpha        |
 | Angular       | Alpha        |
 | Svelte        | Alpha        |
